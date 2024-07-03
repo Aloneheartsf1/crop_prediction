@@ -1,0 +1,46 @@
+body {
+    background-color: #3498db;
+    color: #000; /* Set text color to black */
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    background-image: url('crop.png'); /* Adjust the filename accordingly */
+    background-size: cover;
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1.5px solid #000;
+    border-radius: 12px;
+    backdrop-filter: blur(6px); /* Adjust the blur strength as needed */
+}
+
+label {
+    display: block; /* Place labels on new lines */
+    margin-bottom: 10px; /* Add some space between labels and input fields */
+    color: #000; /* Set label text color to black */
+}
+
+input {
+    width: 100%; /* Make input fields take up full width of the form */
+    padding: 8px; /* Add padding for better appearance */
+    margin-bottom: 15px; /* Add space between input fields */
+    box-sizing: border-box; /* Include padding and border in the input's total width and height */
+}
+
+input[type="submit"] {
+    background-color: #2980b9;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+    background-color: #000; /* Change background color on hover */
+    color: #fff; /* Change text color on hover */
+}

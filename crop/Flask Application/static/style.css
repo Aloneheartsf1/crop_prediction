@@ -1,0 +1,38 @@
+body {
+    background-color: #f0f0f0; /* Background color */
+    font-family: Arial, sans-serif; /* Font family */
+    color: #333; /* Text color */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* 100% of the viewport height */
+}
+
+h2 {
+    color: #008000; /* Title color */
+}
+
+p {
+    background-color: #ffffff; /* Box background color */
+    padding: 20px; /* Padding inside the box */
+    border-radius: 10px; /* Border radius for rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle effect */
+}
+
+a {
+    display: block;
+    margin-top: 20px;
+    text-decoration: none; /* Remove underlines from links */
+    background-color: #008000; /* Button background color */
+    color: #fff; /* Button text color */
+    padding: 10px 20px; /* Padding for the button */
+    border-radius: 5px; /* Border radius for rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+a:hover {
+    background-color: #006400; /* Button background color on hover */
+}
