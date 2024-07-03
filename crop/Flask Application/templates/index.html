@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/styles.css">
+    <title>Crop Prediction</title>
+</head>
+<body>
+    <h1>Crop Prediction</h1>
+
+    <form action="/predict" method="post">
+        <label for="N">N (Nitrogen content in soil)</label>
+        <input type="text" id="N" name="N" value=""><br>
+
+        <label for="P">P (Phosphorous content in soil)</label>
+        <input type="text" id="P" name="P" value=""><br>
+
+        <label for="K">K (Potassium content in soil)</label>
+        <input type="text" id="K" name="K" value=""><br>
+
+        <label for="temperature">Temperature (in degrees Celsius)</label>
+        <input type="text" id="temperature" name="temperature" value=""><br>
+
+        <label for="humidity">Humidity (relative humidity in %)</label>
+        <input type="text" id="humidity" name="humidity" value=""><br>
+
+        <label for="ph">pH value of the soil</label>
+        <input type="text" id="ph" name="ph" value=""><br>
+
+        <label for="rainfall">Rainfall (in mm)</label>
+        <input type="text" id="rainfall" name="rainfall" value=""><br>
+
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>
